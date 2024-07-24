@@ -30,7 +30,7 @@ sections:
         publication_type: ''
         tag: ''
         folders:
-          - blog
+          - news
       offset: 0
       order: desc
     design:
