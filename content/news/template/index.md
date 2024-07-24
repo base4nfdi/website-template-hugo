@@ -1,17 +1,17 @@
 ---
 # Documentation: https://docs.hugoblox.com/ and https://gohugo.io/content-management/
-
-title: "PID4NFDI starts"
-subtitle: ""
-summary: ""
+# This template can be copied to a new folder inside the 'news' folder for a new news item
+title: "Title"
+subtitle: "Subtitle (optional)"
+summary: "Summary (optional)"
 authors: ["marc"]
-tags: ["NFDI", "PID4NFDI", "project news"]
-categories: []
-date: 2024-03-01
-#lastmod: 2024-03-01
+tags: ["tag one", "tag two", "tag three"]
+categories: ["category one", "category two", "category three"]
+date: 2024-01-01
+lastmod: 2024-03-01
 
 # Draft?
-draft: false
+draft: true
 
 # Show publish date?
 show_date: true
@@ -20,7 +20,7 @@ show_date: true
 reading_time: true
 
 # Display in the Featured block on the homepage?
-featured: true
+featured: false
 
 # Hide in search results?
 private: false
@@ -53,7 +53,7 @@ image:
 projects: []
 ---
 
-PID4NFDI, a new basic service in development for the NFDI, has begun operation starting with a one-year initialisation phase on January 1, 2024.
+Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.
 
 <!--more-->
 

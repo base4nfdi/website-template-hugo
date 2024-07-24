@@ -1,17 +1,17 @@
 ---
 # Documentation: https://docs.hugoblox.com/ and https://gohugo.io/content-management/
-
-title: "Title"
-subtitle: "Subtitle (optional)"
-summary: "Summary (optional)"
-authors: ["marc"]
-tags: ["tag one", "tag two", "tag three"]
-categories: ["category one", "category two", "category three"]
+# This template can be copied to a new folder inside the 'news' folder for a new news item
+title: "Todo4NFDI launched"
+subtitle: "yay"
+summary: ""
+authors: ["josiah"]
+tags: ["base4nfdi", "open data", "todo"]
+categories: ["project updates", "meta"]
 date: 2024-01-01
-lastmod: 2024-03-01
+lastmod: 2024-07-24
 
 # Draft?
-draft: true
+draft: false
 
 # Show publish date?
 show_date: true
