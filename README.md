@@ -5,6 +5,8 @@ In this template, 'TODO' is used as a placeholder in every place you need to fil
 
 TODO: insert your service logo
 
+![todo](https://github.com/user-attachments/assets/f308fd01-e74c-45ef-a41d-19704095b7fe)
+
 # TODO4NFDI
 
 TODO: short intro text about project
