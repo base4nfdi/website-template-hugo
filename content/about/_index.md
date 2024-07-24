@@ -6,10 +6,10 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: What is PID4NFDI?
-      subtitle: Persistent Identifier Services for the German National Research Data Infrastructure (NFDI)
+      title: What is Meme4NFDI?
+      subtitle: The most needed basic service yet.
       text: |
-        PID4NFDI is a basic service for persistent identifiers in development for the German National Research Data Infrastructure ([Nationale Forschungsdaten&shy;infrastruktur – NFDI](https://www.nfdi.de/?lang=en)). PID4NFDI is part of [Base4NFDI](https://base4nfdi.de/) and is currently in its initialisation phase, the first of three service development phases.
+        und wir können noch viel mehr
 
         Persistent identifiers (PIDs) are central to FAIR research data management. However, different disciplines and different resources result in diverse requirements and the different NFDI consortia have different levels of maturity in PID implementation. PID4NFDI will design a work programme to build an NFDI foundation service on established PID infrastructures.
     design:
