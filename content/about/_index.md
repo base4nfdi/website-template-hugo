@@ -8,7 +8,7 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: What is Meme4NFDI?
+      title: What is Todo4NFDI?
       subtitle: The most needed basic service yet.
       text: |
         And there's a lot more to discover.
@@ -20,7 +20,7 @@ sections:
     content:
       title: And what are the details?
       text: |
-        Scientific Memes should in any case follow the [FAIR principles](https://www.go-fair.org/fair-principles/), which promote findability, accessibility, interoperability and re-usability of research data. 
+        Scientific data should in any case follow the [FAIR principles](https://www.go-fair.org/fair-principles/), which promote findability, accessibility, interoperability and re-usability of research data. 
 
         And here is a video of milk under a microscope, © [Miguel Angel Omaña Rojas CC-BY-SA 4.0](https://commons.wikimedia.org/wiki/File:Milk_under_the_microscope.webm)
         {{< video src="https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e5/Milk_under_the_microscope.webm/Milk_under_the_microscope.webm.480p.vp9.webm" controls="yes" >}}
@@ -30,7 +30,7 @@ sections:
 
   - block: experience
     content:
-      title: In which development phase is Meme4NFDI?
+      title: In which development phase is Todo4NFDI?
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: January 2006

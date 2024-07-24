@@ -1,6 +1,7 @@
 ---
 title: "An example journal article"
 
+# TODO set to false to publish
 draft: true
 
 authors:

@@ -7,11 +7,11 @@ type: landing
 sections:
   - block: hero
     content:
-      title: Meme4NFDI
+      title: Todo4NFDI
       image:
-        filename: pid4nfdi_small.jpg
+        filename: todo4nfdi.png
       text: |
-        … is a basic service for memes in development for the German National Research Data Infrastructure ([Nationale Forschungsdaten&shy;infrastruktur – NFDI](https://www.nfdi.de/?lang=en)). Meme4NFDI is part of [Base4NFDI](https://base4nfdi.de/) and is currently in its initialisation phase, the first of three service development phases.
+        … is a basic service for memes in development for the German National Research Data Infrastructure ([Nationale Forschungsdaten&shy;infrastruktur – NFDI](https://www.nfdi.de/?lang=en)). Todo4NFDI is part of [Base4NFDI](https://base4nfdi.de/) and is currently in its initialisation phase, the first of three service development phases.
 
         {{% cta cta_link="./about/" cta_text="Read more →" %}}
 
@@ -57,5 +57,5 @@ sections:
       text: |
         {{% cta cta_link="./people/" cta_text="Meet the team →" %}} {{% cta cta_link="./contact/" cta_text="Contact us →" %}}
     design:
-      columns: '2'
+      columns: '1'
 ---
