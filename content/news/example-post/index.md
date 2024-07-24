@@ -1,6 +1,6 @@
 ---
 # Documentation: https://docs.hugoblox.com/ and https://gohugo.io/content-management/
-# This template can be copied to a new folder inside the 'news' folder for a new news item
+
 title: "Todo4NFDI launched"
 subtitle: "yay"
 summary: ""
@@ -41,8 +41,8 @@ show_related: false
 #   To use, add an image named `featured.jpg/png` to your page's folder.
 #   Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: "Absurdly happy person in front of a wall"
+  focal_point: "Top"
   preview_only: false
 
 # Projects
@@ -53,7 +53,7 @@ image:
 projects: []
 ---
 
-Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.
+Congratulations to everyone for winning the Best Paper Award at the 2020 Conference on Wowchemy for the paper “Learning Wowchemy”.
 
 <!--more-->
 
