@@ -73,7 +73,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/base4nfdi/pid4nfdi'
+    url: 'https://github.com/base4nfdi/todo4nfdi' 
     content_dir: content
     branch: main
   avatar:
