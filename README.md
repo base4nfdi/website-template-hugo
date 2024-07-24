@@ -1,3 +1,5 @@
+![works-in-progress-775163_1280](https://github.com/user-attachments/assets/59fbf8d3-2041-4abf-bea3-2d24029ab849)
+
 TODO: insert logo
 
 # TODO4NFDI
