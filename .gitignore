@@ -5,7 +5,8 @@
 /resources/
 public/
 assets/jsconfig.json
-go.mod
+go.sum
+.hugo*
 
 # Ignore .DS_Store files of macOS
 .DS_Store
