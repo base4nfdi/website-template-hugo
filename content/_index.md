@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: hero
     content:
-      title: PID4NFDI
+      title: Meme4NFDI
       image:
         filename: pid4nfdi_small.jpg
       text: |
