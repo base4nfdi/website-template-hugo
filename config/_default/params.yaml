@@ -6,20 +6,22 @@
 # Appearance
 
 appearance:
-  theme_day: congo
-  theme_night: congo
+  theme_day: minimal
+  theme_night: minimal
   font: native
   font_size: M
 
 # SEO
+
+# TODO adjust this file
 
 marketing:
   seo:
     site_type: Organization
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    description: 'Our cool Todo4NFDI service'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -73,7 +75,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/base4nfdi/todo4nfdi' 
+    url: 'https://github.com/base4nfdi/website-template-hugo'
     content_dir: content
     branch: main
   avatar:
