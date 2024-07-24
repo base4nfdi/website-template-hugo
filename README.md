@@ -4,6 +4,7 @@ This reporsitory provides a [Hugo]((https://gohugo.io/) template for a Base4NFDI
 In this template, 'TODO' is used as a placeholder in every place you need to fill in your own service information, so you can just search for it, change/fill out every instance and the site should be ready to use.
 
 TODO: insert yout service logo
+
 ![todo](https://github.com/user-attachments/assets/f308fd01-e74c-45ef-a41d-19704095b7fe)
 
 # TODO4NFDI
