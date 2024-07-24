@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: PID4NFDI # Website name
-baseURL: 'https://base4nfdi.github.io/pid4nfdi' # Website URL
+title: Todo4NFDI # Website name #TODO change
+baseURL: 'http://base4nfdi.github.io/website-template-hugo/' # Website URL TODO 
 
 ############################
 ## LANGUAGE
