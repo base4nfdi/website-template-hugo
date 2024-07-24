@@ -1,14 +1,16 @@
 ---
+# TODO delete this folder
+
 title: "An example journal article"
 
-draft: true
+draft: false
 
 authors:
-- admin
-- Robert Ford
+- josiah
+
 author_notes:
 - "Equal contribution"
-- "Equal contribution"
+
 date: "2015-09-01T00:00:00Z"
 doi: ""
 

@@ -1,24 +1,25 @@
 ---
+# TODO: this page can be copied in a new folder inside the 'authors' folder for each user
 # Display name
-title: Sven Bingert
+title: Josiah S. Carberry
 
 # Full Name (for SEO)
-first_name: Sven
-last_name: Bingert
+first_name: Josiah Stinkney
+last_name: Carberry
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Principial investigator
+role: Principal investigator
 
 # Organizations/Affiliations
 organizations:
-  - name: Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen (GWDG)
-    url: 'https://gwdg.de/'
+  - name: German National Library of Science and Technology (TIB)
+    url: 'https://www.tib.eu/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: Sven works at the Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen (GWDG) and is a principal investigator and project team member of PID4NFDI.
+bio: Josiah works at the German National Library of Science and Technology (TIB) and is a principal investigator of Todo4NFDI.
 
 interests:
   - tba
@@ -41,10 +42,10 @@ education:
 social:
   - icon: ror
     icon_pack: ai
-    link: https://ror.org/00cd95c65
+    link: https://ror.org/04aj4c181
   - icon: orcid
     icon_pack: ai
-    link: https://orcid.org/0000-0001-9547-1582
+    link: https://orcid.org/0000-0002-1825-0097
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -63,4 +64,4 @@ user_groups:
   - Principal Investigators
 ---
 
-Sven works at the Gesellschaft für wissenschaftliche Datenverarbeitung mbH Göttingen (GWDG) and is a principal investigator and project team member of PID4NFDI.
+Josiah works at the German National Library of Science and Technology (TIB) and is a principal investigator of Todo4NFDI.

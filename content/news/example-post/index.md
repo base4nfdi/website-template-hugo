@@ -1,17 +1,17 @@
 ---
 # Documentation: https://docs.hugoblox.com/ and https://gohugo.io/content-management/
 
-title: "Title"
-subtitle: "Subtitle (optional)"
-summary: "Summary (optional)"
-authors: ["marc"]
-tags: ["tag one", "tag two", "tag three"]
-categories: ["category one", "category two", "category three"]
+title: "Todo4NFDI launched"
+subtitle: "yay"
+summary: ""
+authors: ["josiah"]
+tags: ["base4nfdi", "open data", "todo"]
+categories: ["project updates", "meta"]
 date: 2024-01-01
-lastmod: 2024-03-01
+lastmod: 2024-07-24
 
 # Draft?
-draft: true
+draft: false
 
 # Show publish date?
 show_date: true
@@ -41,8 +41,8 @@ show_related: false
 #   To use, add an image named `featured.jpg/png` to your page's folder.
 #   Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: "Absurdly happy person in front of a wall"
+  focal_point: "Top"
   preview_only: false
 
 # Projects
@@ -53,7 +53,7 @@ image:
 projects: []
 ---
 
-Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.
+Congratulations to everyone for winning the Best Paper Award at the 2020 Conference on Wowchemy for the paper “Learning Wowchemy”.
 
 <!--more-->
 

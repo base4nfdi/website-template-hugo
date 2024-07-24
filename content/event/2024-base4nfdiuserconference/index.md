@@ -1,7 +1,7 @@
 ---
 draft: false
 
-title: PID4NFDI @ 1st Base4NFDI User Conference
+title: Todo4NFDI @ 1st Base4NFDI User Conference
 
 event: 1st Base4NFDI User Conference
 event_url: https://events.gwdg.de/event/658/
@@ -14,8 +14,8 @@ address:
   postcode: '10589'
   country: Germany
 
-summary: PID4NFDI will take part in the first Base4NFDI User Conference in 2024 in Berlin.
-abstract: 'The team of PID4NFDI will join in participating in the first Base4NFDI User Conference which takes place in Berlin in November 2024.'
+summary: Todo4NFDI will take part in the first Base4NFDI User Conference in 2024 in Berlin.
+abstract: 'The team of Todo4NFDI will join in participating in the first Base4NFDI User Conference which takes place in Berlin in November 2024.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -61,4 +61,4 @@ slides:
 projects:
 ---
 
-The team of PID4NFDI will join in participating in the first Base4NFDI User Conference which takes place in Berlin in November 2024.
+The team of TodoNFDI will join in participating in the first Base4NFDI User Conference which takes place in Berlin in November 2024.
