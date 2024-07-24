@@ -1,4 +1,4 @@
-# Hugo Blox GitHub Action to convert Bibtex publications to Markdown-based webpages
+# Hugo Blox GitHub Action to convert Bibtex publications to Markdown-based webpages +
 name: Import Publications From Bibtex
 
 # Require permission to create a PR
