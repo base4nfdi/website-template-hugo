@@ -39,19 +39,19 @@ sections:
       #   Required fields are `title`, `company`, and `date_start`.
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      # TODO: don't forget to change the dates of the phases
+      # TODO: don't forget to change the dates of the phases. Leave the 'date_end' of your current phase empty, so it is marked active
       items:
         - title: Initialisation Phase
           company: First Phase
           location: completed
           date_start: '2022-01-01'
-          date_end: ''
+          date_end: '2022-12-01'
           #description: 
         - title: Integration Phase
           company: Second Phase
           location: current
           date_start: '2023-01-01'
-          date_end: '2024-12-31'
+          date_end: ''
           #description: 
         - title: Ramp-up Phase
           company: Third Phase
