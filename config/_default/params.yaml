@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: hello-friend-ng
+  theme_day: congo
+  theme_night: congo
   font: native
   font_size: M
 
