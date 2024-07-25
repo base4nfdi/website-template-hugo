@@ -15,7 +15,7 @@ role: Principal investigator
 
 # Organizations/Affiliations
 organizations:
-  - name: Brown University: Providence, RI, US
+  - name: 'Brown University: Providence, RI, US'
     url: 'http://www.brown.edu/'
 
 # Short bio (displayed in user profile at end of posts)
