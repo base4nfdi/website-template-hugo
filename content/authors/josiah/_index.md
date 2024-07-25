@@ -15,16 +15,16 @@ role: Principal investigator
 
 # Organizations/Affiliations
 organizations:
-  - name: German National Library of Science and Technology (TIB)
-    url: 'https://www.tib.eu/'
+  - name: Brown University: Providence, RI, US
+    url: 'http://www.brown.edu/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: Josiah works at the German National Library of Science and Technology (TIB) and is a principal investigator of Todo4NFDI.
+bio: Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of Todo4NFDI.
 
 interests:
-  - tba
-  - tba
-  - tba
+  - Psychoceramics
+  - Cracked pots
+  - Amphibious epistemologies
 
 education:
   courses:
@@ -42,7 +42,7 @@ education:
 social:
   - icon: ror
     icon_pack: ai
-    link: https://ror.org/04aj4c181
+    link: https://ror.org/05gq02987
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0002-1825-0097
