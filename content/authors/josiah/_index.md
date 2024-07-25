@@ -18,7 +18,7 @@ organizations:
   - name: 'Brown University: Providence, RI, US'
     url: 'http://www.brown.edu/'
 
-# Short bio (displayed in user profile at end of posts)
+# Short bio (displayed in user profile at end of posts) # don't forget to update also the bio at the bottom of this page!
 bio: Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of Todo4NFDI.
 
 interests:
@@ -58,10 +58,10 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 
-# Organizational groups that you belong to (for People widget)
+# Organizational groups that you belong to (for People widget, see the existing groups in the people folder)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Principal Investigators
 ---
 
-Josiah works at the German National Library of Science and Technology (TIB) and is a principal investigator of Todo4NFDI.
+Josiah works as a professor at the Brown University, known for his work in psychoceramics, the study of cracked pots, and is a principal investigator of Todo4NFDI.
