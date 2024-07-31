@@ -74,6 +74,26 @@
   }
   }
   
+  .btn-outline-primary {
+  background-color: transparent;
+  border: 1px solid var(--color-blue);
+  color: var(--color-blue);
+  
+  &:active {
+  background-color: var(--color-blue);
+  border: 1px solid var(--color-blue);
+  color: var(--color-white);
+  outline: 0;
+  }
+  
+  &:focus,
+  &:hover {
+  background-color: var(--color-blue);
+  border: 1px solid var(--color-blue);
+  color: var(--color-white);
+  }
+  }
+  
   .navbar {
   background: var(--color-anthrazit);
   font-family: "Fira Sans";
@@ -84,6 +104,21 @@
   font-weight: bold !important;
   }
   
-  #navbar-main .main-menu-item ul li .nav-link {
-  color: var(--color-white);
+  #navbar-main .main-menu-item .nav-link {
+  color: var(--color-white) !important;
+  
+  &.active {
+  span {
+  color: var(--color-blue);
+  }
+  }
+  
+  &:focus,
+  &:hover {
+  color: var(--color-blue) !important;
+  }
+  }
+  
+  .article-title a {
+  font-family: "Fira Sans";
   }
