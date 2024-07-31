@@ -43,6 +43,9 @@ header:
     show_search: true
     show_theme_chooser: true
     highlight_active_link: true
+    logo:
+      text: ""
+      filename: "logo.png"
 
 # Site footer
 
@@ -99,7 +102,7 @@ features:
       app_id: ''
       api_key: ''
       index_name: ''
-      show_logo: false
+      show_logo: true
   map:
     provider: 'mapnik'
     api_key: ''
