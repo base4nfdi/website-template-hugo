@@ -1,33 +1,89 @@
 @font-face {
-    font-family: "Fira Sans";
-    src: url('../fonts/FiraSans.woff2') format('woff2');
-}
-
-.navbar {
-  background-color: #45546B;
-  font-family: 'Fira Sans';
+  font-family: "Fira Sans";
+  src: url("../fonts/FiraSans.woff2") format("woff2");
+  }
+  
+  :root {
+  --color-anthrazit: #45546b;
+  --color-blue: #0abaf0;
+  --color-blue-dark: #3c7ca0;
+  --color-grey: #6c8080;
+  --color-grey-80: #6c8080cc;
+  --color-grey-60: #6c808099;
+  --color-grey-40: #6c808066;
+  --color-grey-20: #6c808033;
+  --color-grey-10: #6c80801a;
+  --color-white: #ffffff;
+  
+  --border-radius: 5px;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+  :root {
+  --color-anthrazit: #45546b;
+  --color-blue: #0abaf0;
+  --color-blue-dark: #3c7ca0;
+  --color-grey: #6c8080;
+  --color-grey-80: #6c8080cc;
+  --color-grey-60: #6c808099;
+  --color-grey-40: #6c808066;
+  --color-grey-20: #6c808033;
+  --color-grey-10: #6c80801a;
+  --color-white: #ffffff;
+  }
+  }
+  
+  body,
+  html {
+  font-family: "Fira Sans";
+  }
+  
+  a {
+  color: var(--color-blue);
+  background-color: transparent;
+  text-decoration: none !important;
+  
+  &:focus,
+  &:hover {
+  color: var(--color-anthrazit);
+  }
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+  font-family: "Fira Sans";
+  }
+  
+  .btn {
+  border: 0;
+  border-radius: var(--border-radius);
+  font-size: 1.2rem; // maybe 1rem
+  padding: 10px 20px !important;
+  }
+  
+  .btn-primary {
+  background-color: var(--color-blue);
+  
+  &:focus,
+  &:hover {
+  background-color: var(--color-anthrazit);
+  }
+  }
+  
+  .navbar {
+  background: var(--color-anthrazit);
+  font-family: "Fira Sans";
+  }
+  
   .navbar .navbar-nav .nav-link.active {
-    color: #0ABAF0; }
-}
-
-a {
-  color: #0ABAF0;
-  text-decoration: none;
-  background-color: transparent; }
-  a:hover {
-    color: #45546B;
- }
-
- #navbar-main .main-menu-item ul li .nav-link {
-  color: #ffffff; }
-
-
-
-
-.navbar {
-  background: #45546B;
-      .navbar .navbar-nav .nav-link.active {
-        font-weight: bold !important;
-        color: #0ABAF0 !important; }
-      }
-
+  color: var(--color-blue);
+  font-weight: bold !important;
+  }
+  
+  #navbar-main .main-menu-item ul li .nav-link {
+  color: var(--color-white);
+  }
