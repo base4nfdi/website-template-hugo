@@ -51,7 +51,10 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Todo4NFDI (Base4NFDI). This work is licensed under {license}'
+    notice: '© {year} Todo4NFDI, [Base4NFDI](https://www.base4nfdi.de), Funded by DFG as part of [NFDI](https://www.nfdi.de). <br>
+    Grant Numbers: 521453681, 521460392, 521462155, 521463400, <br> 521466146, 521471126, 521473512, 521474032, 521475185, 521476232. <br> <br>
+    This work is licensed under {license} <br> <br>
+    [Privacy](https://www.base4nfdi.de) | [Legal Note](https://www.base4nfdi.de) | [Accessibility](https://www.base4nfdi.de)'
     license:
       enable: true
       allow_derivatives: true

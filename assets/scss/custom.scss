@@ -122,3 +122,32 @@
   .article-title a {
   font-family: "Fira Sans";
   }
+
+ .page-footer, .site-footer {
+  background-color: var(--color-anthrazit);
+  }
+
+ .site-footer {
+  padding: 25px 0;
+  }
+
+  footer p {
+    color: var(--color-white);
+  }
+
+  .site-footer {
+    margin: 2rem 0;
+  }
+
+  footer a:hover, footer a:active, footer a:focus {
+    text-decoration: underline !important;
+    color: var(--color-blue);
+  }
+
+  .footer-license-icons a:hover {
+    text-decoration: none !important;
+    }
+
+  .page-wrapper {
+    min-height: 100svh;
+  }
