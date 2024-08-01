@@ -41,7 +41,7 @@ show_related: false
 #   To use, add an image named `featured.jpg/png` to your page's folder.
 #   Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: "Absurdly happy person in front of a wall"
+  caption: "Picture by Mrexentric, Pixabay"
   focal_point: "Top"
   preview_only: false
 
