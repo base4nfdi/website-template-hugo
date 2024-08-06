@@ -35,8 +35,7 @@ GitHub has [extensive documentation on this](https://docs.github.com/en/pages/co
   2. Now the custom domain can be set in the project. Again in Settings ➜ Pages enter your domain (todo.services.base4nfdi.de) into the custom domain box and hit save. If the DNS check fails, wait a bit to make sure the change is published, otherwise make sure your DNS record is correct (e.g. missing dot at the end)
   3. After the DNS check passes, lastly set the new domain in the website configuration itself, so for this template in config/\_default/hugo.yaml. After the GitHub action ran again, your site should be ready and available under the new domain!
 
-# About structure and design
-  1. The template includes a general structure (about, news, docs, events, people, contact) that can be followed or adjusted. 
-  2. Font type: Fira Sans
-  3. Primary color (paragraph, titles, top navi bar, link hover): #45546B
-  4. Secondary color (link, buttons): #0ABAF0
+# About the design
+  1. Font type: Fira Sans
+  2. Primary color (paragraph, titles, top navi bar, link hover): #45546B
+  3. Secondary color (link, buttons): #0ABAF0
