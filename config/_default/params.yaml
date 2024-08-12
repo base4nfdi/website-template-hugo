@@ -50,16 +50,28 @@ header:
 # Site footer
 
 footer:
+  about: '[Base4NFDI](https://www.base4nfdi.de), Funded by DFG as part of [NFDI](https://www.nfdi.de).<br>
+    <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer">
+      <i class="fab fa-github fa-lg text-white"></i>
+    </a>'
+  mission: 'Base4NFDI<br>
+        What is Base4NDFI?<br>
+        What is a Basic Service?<br>
+        Our Mission Statement'
+  dfg: '<img src="media/dfg_logo_blau_foerderung_en.jpg" alt="Your Image" class="img-fluid">
+        <p class="powered-by">
+            <br>
+            Grant Numbers: 521453681, 521460392, 521462155, 521463400, <br> 521466146, 521471126, 521473512, 521474032, 521475185, 521476232. 
+        </p>'
   copyright:
-    notice: '© {year} Todo4NFDI, [Base4NFDI](https://www.base4nfdi.de), Funded by DFG as part of [NFDI](https://www.nfdi.de). <br>
-    Grant Numbers: 521453681, 521460392, 521462155, 521463400, <br> 521466146, 521471126, 521473512, 521474032, 521475185, 521476232. <br> <br>
-    This work is licensed under {license} <br> <br>
-    [Privacy](https://www.base4nfdi.de) | [Legal Note](https://www.base4nfdi.de) | [Accessibility](https://www.base4nfdi.de)'
+    notice: '© {year} Todo4NFDI,  This work is licensed under {license} <br> <br>
+    [Privacy](https://www.base4nfdi.de) | [Legal Note](https://www.base4nfdi.de) | [Accessibility](https://www.base4nfdi.de) '
     license:
       enable: true
       allow_derivatives: true
       share_alike: true
       allow_commercial: true
+
 
 # Localization
 

@@ -123,6 +123,9 @@
   font-family: "Fira Sans";
   }
 
+  .page-body {
+    padding-bottom: 50px;
+  }
  .page-footer, .site-footer {
   background-color: var(--color-anthrazit);
   }
@@ -133,6 +136,7 @@
 
   footer p {
     color: var(--color-white);
+    text-align: start;
   }
 
   .site-footer {
