@@ -57,7 +57,11 @@
   h6 {
   font-family: "Fira Sans";
   }
-  
+
+  .align-top {
+    vertical-align: top;
+   }
+
   .btn {
   border: 0;
   border-radius: var(--border-radius);
@@ -146,6 +150,10 @@
   footer a:hover, footer a:active, footer a:focus {
     text-decoration: underline !important;
     color: var(--color-blue);
+  }
+
+  .footer-license-icons {
+    display: block;
   }
 
   .footer-license-icons a:hover {
