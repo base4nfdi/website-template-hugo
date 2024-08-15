@@ -124,27 +124,38 @@
   }
   
   .article-title a {
-  font-family: "Fira Sans";
+    font-family: "Fira Sans";
+  }
+
+  .fa-lg {
+    font-size: 2em;
   }
 
   .page-body {
     padding-bottom: 50px;
   }
+
  .page-footer, .site-footer {
-  background-color: var(--color-anthrazit);
+    background-color: var(--color-anthrazit);
   }
 
- .site-footer {
-  padding: 25px 0;
+ .powered-by {
+    text-align: center;
   }
 
   footer p {
     color: var(--color-white);
+    font-size: 0.67rem;
     text-align: start;
+  }
+
+  .adjust-text-align {
+    text-align: start !important;
   }
 
   .site-footer {
     margin: 2rem 0;
+    padding: 25px 0;
   }
 
   footer a:hover, footer a:active, footer a:focus {
