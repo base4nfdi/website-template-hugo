@@ -1,0 +1,28 @@
+<div class="row justify-content-center">
+    <div class="col-lg-2 col-md-2 col-sm-4 col-5 align-top mb-4 mb-md-0">
+        <img src="/images/Logo_base4NFDI_kurz_neg_rgb.png" alt="Your Image" class=" ">
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-5 mb-4 mb-md-0">
+        {{/* Display copyright license. */}}
+        {{ partial "site_footer_license" . }}
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-5 mb-4 mb-md-0">
+        {{ with site.Params.footer.mission }}
+        <p>
+            {{ . | markdownify | emojify }}
+        </p>
+        {{ end }}
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-5 mb-4 mb-md-0">
+        {{ with site.Params.footer.about }}
+        <p>
+            {{ . | markdownify | emojify }}
+        </p>
+        {{ end }}
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-4 col-5 align-items-center mb-4 mb-md-0">
+        {{ with site.Params.footer.dfg }}
+        {{ . | markdownify | emojify }}
+        {{ end }}
+    </div>
+</div>

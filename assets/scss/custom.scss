@@ -57,7 +57,11 @@
   h6 {
   font-family: "Fira Sans";
   }
-  
+
+  .align-top {
+    vertical-align: top;
+   }
+
   .btn {
   border: 0;
   border-radius: var(--border-radius);
@@ -120,28 +124,47 @@
   }
   
   .article-title a {
-  font-family: "Fira Sans";
+    font-family: "Fira Sans";
+  }
+
+  .fa-lg {
+    font-size: 2em;
+  }
+
+  .page-body {
+    padding-bottom: 50px;
   }
 
  .page-footer, .site-footer {
-  background-color: var(--color-anthrazit);
+    background-color: var(--color-anthrazit);
   }
 
- .site-footer {
-  padding: 25px 0;
+ .powered-by {
+    text-align: center;
   }
 
   footer p {
     color: var(--color-white);
+    font-size: 0.67rem;
+    text-align: center;
+  }
+
+  .adjust-text-align {
+    text-align: start !important;
   }
 
   .site-footer {
     margin: 2rem 0;
+    padding: 25px 0;
   }
 
   footer a:hover, footer a:active, footer a:focus {
     text-decoration: underline !important;
     color: var(--color-blue);
+  }
+
+  .footer-license-icons {
+    display: block;
   }
 
   .footer-license-icons a:hover {
