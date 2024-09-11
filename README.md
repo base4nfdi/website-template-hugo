@@ -1,6 +1,7 @@
-![works-in-progress-775163_1280](https://github.com/user-attachments/assets/59fbf8d3-2041-4abf-bea3-2d24029ab849)
+# Welcome! 
 
-This repository provides a [Hugo](https://gohugo.io/) template for a Base4NFDI basic service website. By default it includes a blog/newsfeed, publications, people in the project and a wiki, but can be customized in any way to your needs.
+This repository provides a [Hugo](https://gohugo.io/) template for a Base4NFDI basic service website. 
+By default it includes a blog/newsfeed, publications, people in the project and a wiki, but can be customized in any way to your needs.
 In this template, 'TODO' is used as a placeholder in every place you need to fill in your own service information, so you can just search for it, change/fill out every instance and the site should be ready to use.
 
 TODO: insert your service logo
