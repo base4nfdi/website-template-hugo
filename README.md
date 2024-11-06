@@ -40,3 +40,6 @@ GitHub has [extensive documentation on this](https://docs.github.com/en/pages/co
   1. Font type: Fira Sans
   2. Primary color (paragraph, titles, top navi bar, link hover): #45546B
   3. Secondary color (link, buttons): #0ABAF0
+
+## About the template
+Significant primary work was done by M. Lange.
