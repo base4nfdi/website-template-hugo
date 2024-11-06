@@ -41,5 +41,5 @@ GitHub has [extensive documentation on this](https://docs.github.com/en/pages/co
   2. Primary color (paragraph, titles, top navi bar, link hover): #45546B
   3. Secondary color (link, buttons): #0ABAF0
 
-## About the template
+## Acknowledgements
 Significant primary work was done by M. Lange.
