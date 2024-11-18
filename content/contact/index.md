@@ -14,7 +14,7 @@ sections:
 
         <!-- Put form here as HTML, because the hugo template does not support custom URLs for contact forms.. -->
        
-        <!-- remove this comment to include the form. Don't forget to change the action URL accodringly 
+        <!-- remove this comment to include the form. Don't forget to change the action URL accordingly 
         <div class="mb-3">
           <form name="contact" method="POST" action="https://TODO4NFDI.FORM.URL/create" target="formres">
           <div class="form-group form-inline">
