@@ -44,7 +44,7 @@ sections:
       count: 5
       filters:
         folders:
-          - publications
+          - publication
         #publication_type: 'article'
     design:
       view: list
