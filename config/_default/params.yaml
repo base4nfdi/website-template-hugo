@@ -64,8 +64,8 @@ footer:
         '
   copyright:
     notice: '<b>Legal</b><br>
-    [Privacy](https://www.base4nfdi.de) | [Legal Note](https://www.base4nfdi.de) <br>
-    [Accessibility](https://www.base4nfdi.de)<br> <br>
+    [Privacy](privacy) | [Imprint](imprint) <br>
+    [Accessibility](accessibility)<br> <br>
     © {year} Todo4NFDI  <br> 
     This work is licensed <br>
     under {license}'
