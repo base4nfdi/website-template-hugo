@@ -62,15 +62,16 @@ sections:
 
         **Copyright notice (Urheberrechtshinweis)**
 
-        All content on this website, including text, images, and other media,
-        is protected by  copyright laws. Reproduction, editing, and distribution
-        outside the limits of copyright law require written permission from the
-        author or creator. Unauthorised use is prohibited. \
-        *(Die Inhalte dieser Website, einschließlich Texte, Bilder und andere
-        Medien, unterliegen dem deutschen Urheberrecht. Die Vervielfältigung,
-        Bearbeitung, Verbreitung und jede Art der Nutzung außerhalb der Grenzen
-        des Urheberrechts bedürfen der schriftlichen Zustimmung des Autors oder
-        Erstellers. Inhalte Dritter werden als solche gekennzeichnet.)*
+        Our website features a variety of materials, including images, designs, recordings, and sounds. The materials we create are shared under the Creative Commons Attribution-ShareAlike 4.0           International (CC BY-SA 4.0) license, making them freely available for use, distribution, and modification under the terms of this license.
+        However, some content on our website comes from third parties or is otherwise restricted, which means it can’t be openly licensed. We’re committed to respecting the intellectual property rights of others, only using content we own, that’s publicly available, or that we’ve properly licensed. When using third-party content, we ensure it is appropriately credited.
+        Please note that the names of the Company, product, and other external names might be mentioned on our website, which are trademarks of their respective owners, and we reference them for informational purposes only. If you notice any potential copyright issues, please contact us, and we will address them promptly.
+        
+        (Unsere Website enthält eine Vielzahl von Materialien, darunter Bilder, Designs, Aufnahmen und Sounds. Die von uns erstellten Materialien stehen unter der Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)-Lizenz. Das bedeutet, sie können frei genutzt, verteilt und gemäß den Bedingungen dieser Lizenz bearbeitet werden.
+        Allerdings stammen einige Inhalte unserer Website von Drittanbietern oder sind anderweitig eingeschränkt und können daher nicht unter einer offenen Lizenz genutzt werden. Wir sind bestrebt, die Urheberrechte anderer zu respektieren, indem wir nur Inhalte verwenden, die uns gehören, öffentlich zugänglich sind oder die wir ordnungsgemäß lizenziert haben. Wir legen auch großen Wert darauf, Drittanbieter-Inhalte angemessen zu kennzeichnen.
+        Sie werden möglicherweise Produkt- und Firmennamen auf unserer Website finden. Diese sind Markenzeichen der jeweiligen Eigentümer und werden nur zu Informationszwecken erwähnt. Sollten Sie potenzielle Urheberrechtsverletzungen bemerken, bitten wir Sie, uns zu informieren – wir werden das Problem schnellstmöglich klären.
+        Die unter der CC BY-SA 4.0-Lizenz stehenden Materialien dürfen gemäß den Lizenzbedingungen verwendet werden. Andere Inhalte dürfen nur für Bildungs- und nicht-kommerzielle Zwecke genutzt werden, und wir bitten Sie, uns vorher um Erlaubnis zu fragen. Wenn Sie eingeschränkte Materialien verbreiten oder bearbeiten möchten, setzen Sie sich bitte mit uns in Verbindung, um sicherzustellen, dass eine angemessene Quellenangabe erfolgt. Für umfangreiche Bearbeitungen oder kommerzielle Nutzungen ist eine schriftliche Zustimmung erforderlich.
+        Bitte beachten Sie, dass erteilte Genehmigungen jederzeit widerrufen werden können. In diesem Fall bitten wir Sie, die Nutzung der Website und ihrer Inhalte unverzüglich einzustellen.)
+
 
         **Funding (mandatory)**
 
