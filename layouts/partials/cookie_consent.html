@@ -5,37 +5,48 @@
   {{ if ($scr.Get "use_cdn") }}
     {{ printf "<script src=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\"></script>" (printf $js.cookieconsent.url $js.cookieconsent.version) $js.cookieconsent.sri | safeHTML }}
     {{ printf "<link rel=\"stylesheet\" href=\"%s\" integrity=\"%s\" crossorigin=\"anonymous\">" (printf $css.cookieconsent.url $css.cookieconsent.version) $css.cookieconsent.sri | safeHTML }}
+  <!-- Cookie Consent Banner -->
+  <div id="cookie-consent-banner" class="banner">
+    We use cookies to improve your experience. <a href="{{site.BaseURL}}privacy">Learn more</a>.
+    <button id="cookie-consent-accept" class="btn btn-primary">Accept</button>
+    <button id="cookie-consent-deny" class="btn btn-primary">Deny</button>
+  </div>
   {{ end }}
   <script>
-  // Get the root element
-  var root = document.documentElement;
-  // Get the CSS variables
-  var popupBackground = getComputedStyle(root).getPropertyValue('--color-blue-dark').trim();
-  var buttonPrimary = getComputedStyle(root).getPropertyValue('--color-blue').trim();
-  var whiteColor = getComputedStyle(root).getPropertyValue('--color-white').trim();
-  // console.log('popup',popupBackground)
+    document.addEventListener('DOMContentLoaded', function () {
+      var consentBanner = document.getElementById('cookie-consent-banner');
+      var acceptButton = document.getElementById('cookie-consent-accept');
+      var denyButton = document.getElementById('cookie-consent-deny');
 
-  window.addEventListener("load", function(){
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": {
-          "background": popupBackground,
-          "text": whiteColor
-        },
-        "button": {
-          "background": buttonPrimary,
-          "text": whiteColor
-        }
-      },
-      "theme": "classic",
-      "content": {
-        // "message": {{ i18n "cookie_message" | default "This website uses cookies to ensure you get the best experience on our website." }},
-        "message": {{ "This Basic Service website uses cookies to ensure you get the best experience on our website." }},
-        // "dismiss": {{ i18n "cookie_dismiss" | default "Got it!" }},
-        "dismiss": {{ "I understood!" }},
-        "link": {{ i18n "cookie_learn" | default "Learn more" }},
-        "href": {{ with site.GetPage "/privacy.md" }}{{ printf "%s" .RelPermalink }}{{ else }}"https://www.cookiesandyou.com"{{ end }}
+      // Check if the user has already given or denied consent
+      if (!localStorage.getItem('cookieConsent')) {
+        consentBanner.style.display = 'block';
       }
-    })});
+      // Handle "Accept" button click
+      acceptButton.addEventListener('click', function () {
+        localStorage.setItem('cookieConsent', 'accepted');
+        consentBanner.style.display = 'none';
+      });
+      // Handle "Deny" button click
+      denyButton.addEventListener('click', function () {
+        localStorage.setItem('cookieConsent', 'denied');
+        consentBanner.style.display = 'none';
+        // Optionally, you can remove or disable Matomo tracking here if needed
+      });
+    });
+    // Function to initialize Matomo
+    function initializeMatomo() {
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function () {
+        var u = "your-matomo-domain.com";
+        _paq.push(['setTrackerUrl', u + 'matomo.php']);
+        _paq.push(['setSiteId', 'YOUR_SIDE_ID']);
+        var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+        g.async = true; g.src = u + 'matomo.js'; s.parentNode.insertBefore(g, s);
+      })();
+    }
   </script>
 {{ end }}

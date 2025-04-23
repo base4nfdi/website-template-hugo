@@ -93,7 +93,6 @@ features:
     enable: true
   privacy_pack:
     enable: true
-    blox: "cookie_consent"
   repository:
     url: 'https://github.com/base4nfdi/website-template-hugo'
     content_dir: content
