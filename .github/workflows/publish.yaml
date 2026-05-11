@@ -9,7 +9,6 @@ on:
     branches: ["main"]
   # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
-
 # Provide permission to clone the repo and deploy it to GitHub Pages
 permissions:
   contents: read
@@ -26,7 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           # Fetch history for Hugo's .GitInfo and .Lastmod
           fetch-depth: 0
@@ -35,7 +34,7 @@ jobs:
         with:
           hugo-version: ${{ env.WC_HUGO_VERSION }}
           extended: true
-      - uses: actions/cache@v4
+      - uses: actions/cache@v5
         with:
           path: /tmp/hugo_cache_runner/
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
@@ -43,7 +42,7 @@ jobs:
             ${{ runner.os }}-hugomod-
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Test Hugo build for errors
         # run recommended Hugo test https://gohugo.io/troubleshooting/audit/
         env:
@@ -58,7 +57,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           # Fetch history for Hugo's .GitInfo and .Lastmod
           fetch-depth: 0
@@ -67,7 +66,7 @@ jobs:
         with:
           hugo-version: ${{ env.WC_HUGO_VERSION }}
           extended: true
-      - uses: actions/cache@v4
+      - uses: actions/cache@v5
         with:
           path: /tmp/hugo_cache_runner/
           key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.mod') }}
@@ -75,7 +74,7 @@ jobs:
             ${{ runner.os }}-hugomod-
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
@@ -83,7 +82,7 @@ jobs:
           echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: ./public
 
@@ -98,4 +97,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
