@@ -92,7 +92,7 @@ features:
   math:
     enable: true
   privacy_pack:
-    enable: false
+    enable: true
   repository:
     url: 'https://github.com/base4nfdi/website-template-hugo'
     content_dir: content

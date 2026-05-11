@@ -41,5 +41,8 @@ GitHub has [extensive documentation on this](https://docs.github.com/en/pages/co
   2. Primary color (paragraph, titles, top navi bar, link hover): #45546B
   3. Secondary color (link, buttons): #0ABAF0
 
-## Acknowledgements
+# Cookie Banner (Consent)
+We activated the `privacy_pack` within the params.yaml file. Therefore the `layouts/partials/cookie_consent.html` was created and is used  automatically. Right now it has an implementation of Matomo for analytics purposes. There is a simpler cookie consent as well at `layouts/partials/minimal-version.cookie_consent.html`. Change the filename to see the differences and adjust it for your own needs.
+
+# Acknowledgements
 Significant primary work was done by M. Lange.

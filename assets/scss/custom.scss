@@ -62,10 +62,14 @@
     vertical-align: top;
    }
 
+   .banner {
+display: none; position: fixed; bottom: 0; left: 0; width: 100%; background-color: #333; color: #fff; padding: 10px; text-align: center; z-index: 1000;
+   }
+
   .btn {
   border: 0;
   border-radius: var(--border-radius);
-  font-size: 1.2rem; // maybe 1rem
+  font-size: 1.0rem; // maybe 1rem
   padding: 10px 20px !important;
   }
   
