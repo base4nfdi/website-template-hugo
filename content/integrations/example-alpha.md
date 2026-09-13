@@ -5,6 +5,7 @@ status: Running
 inc_start: "2025-03-01"
 inc_end: ""
 inc_cycle: 1
+tags: ["RDMO", "widget", "repository"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
