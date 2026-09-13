@@ -20,5 +20,5 @@ result-*
 # flake.lock
 # shell.nix
 # default.nix
-*.nix
+# *.nix
 # /nix/

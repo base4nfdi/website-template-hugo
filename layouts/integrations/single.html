@@ -1,0 +1,27 @@
+{{- define "main" -}}
+
+<article class="article article-integration">
+  {{ partial "page_header.html" . }}
+
+  <div class="article-container">
+    <p class="integrations-breadcrumb">
+      <a href="{{ "integrations/" | relLangURL }}">Integrations</a>
+      <span aria-hidden="true"> / </span>
+      {{ .Title }}
+    </p>
+
+    {{ with .Params.status }}
+    <p class="integrations-status">
+      <span class="status-badge status-{{ . | urlize }}">{{ . }}</span>
+    </p>
+    {{ end }}
+
+    <div class="article-style">
+      {{ .Content }}
+    </div>
+
+    {{ partial "page_footer" . }}
+  </div>
+</article>
+
+{{- end -}}

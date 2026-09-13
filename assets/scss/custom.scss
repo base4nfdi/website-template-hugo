@@ -174,3 +174,95 @@
   .page-wrapper {
     min-height: 100svh;
   }
+
+  /* Integrations list + status badges (dashboard-inspired) */
+  .integrations-panel {
+    margin-top: 1.5rem;
+    border: 1px solid var(--color-grey-20);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    background: var(--color-white);
+  }
+
+  .integrations-entries {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .integrations-entry {
+    border-bottom: 1px solid var(--color-grey-20);
+  }
+
+  .integrations-entry:last-child {
+    border-bottom: none;
+  }
+
+  .integrations-entry-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    color: var(--color-anthrazit) !important;
+  }
+
+  .integrations-entry-link:hover,
+  .integrations-entry-link:focus {
+    background: var(--color-grey-10);
+    color: var(--color-blue) !important;
+  }
+
+  .integrations-entry-main {
+    display: flex;
+    align-items: center;
+    gap: 0.85rem;
+    min-width: 0;
+  }
+
+  .integrations-entry-logo {
+    flex: 0 0 auto;
+    display: block;
+    height: 1.75rem;
+    width: auto;
+    max-width: 3.25rem;
+    object-fit: contain;
+  }
+
+  .integrations-entry-title {
+    font-weight: 600;
+  }
+
+  .integrations-breadcrumb {
+    margin: 0 0 0.75rem;
+    color: var(--color-grey);
+    font-size: 0.95rem;
+  }
+
+  .integrations-status {
+    margin: 0 0 1rem;
+  }
+
+  .status-badge {
+    display: inline-block;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .status-finished {
+    color: #1a2600;
+    background: #c6f6d5;
+  }
+
+  .status-running {
+    color: #0c4a6e;
+    background: #bae6fd;
+  }
+
+  .status-in-preparation {
+    color: #3d1600;
+    background: #fed7aa;
+  }

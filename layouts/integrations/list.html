@@ -1,0 +1,57 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+  {{ with .Content }}
+    <div class="article-style">{{ . }}</div>
+  {{ end }}
+
+  {{ $pages := .Pages.ByTitle }}
+  {{/* Sample consortia logos from the incubator dashboard (partner-logos). */}}
+  {{ $consortiaLogos := slice
+    (dict "file" "images/consortia/nfdi4chem.png" "alt" "NFDI4Chem")
+    (dict "file" "images/consortia/nfdi4health.png" "alt" "NFDI4Health")
+    (dict "file" "images/consortia/fairagro.png" "alt" "FAIRagro")
+    (dict "file" "images/consortia/mardi.png" "alt" "MaRDI")
+    (dict "file" "images/consortia/nfdi4ing.svg" "alt" "NFDI4Ing")
+    (dict "file" "images/consortia/textplus.png" "alt" "Text+")
+    (dict "file" "images/consortia/nfdi4culture.png" "alt" "NFDI4Culture")
+    (dict "file" "images/consortia/nfdi4biodiversity.png" "alt" "NFDI4Biodiversity")
+    (dict "file" "images/consortia/nfdi4earth.png" "alt" "NFDI4Earth")
+  }}
+  {{ if $pages }}
+  <div class="integrations-panel">
+    <ul class="integrations-entries">
+      {{ range $pages }}
+      {{/* Stable pseudo-random pick per page (md5 digits → index). */}}
+      {{ $digits := replaceRE "[^0-9]" "" (md5 .RelPermalink) }}
+      {{ $idx := mod (int (substr $digits 0 6)) (len $consortiaLogos) }}
+      {{ $logo := index $consortiaLogos $idx }}
+      <li class="integrations-entry">
+        <a class="integrations-entry-link" href="{{ .RelPermalink }}">
+          <span class="integrations-entry-main">
+            <img
+              class="integrations-entry-logo"
+              src="{{ $logo.file | relURL }}"
+              alt="{{ $logo.alt }}"
+              title="{{ $logo.alt }}"
+              width="40"
+              height="28"
+              loading="lazy"
+              decoding="async"
+            >
+            <span class="integrations-entry-title">{{ .Title }}</span>
+          </span>
+          {{ with .Params.status }}
+          <span class="status-badge status-{{ . | urlize }}">{{ . }}</span>
+          {{ end }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+</div>
+
+{{- end -}}
