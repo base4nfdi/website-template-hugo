@@ -178,10 +178,17 @@
   /* Integrations list + status badges (dashboard-inspired) */
   .integrations-panel {
     margin-top: 1.5rem;
-    border: 1px solid var(--color-grey-20);
-    border-radius: var(--border-radius);
+    border: 1px solid rgba(0, 0, 0, 0.09);
+    border-radius: 3px;
     overflow: hidden;
-    background: var(--color-white);
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  }
+
+  .dark .integrations-panel {
+    background: #282a36;
+    border-color: #44475a;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
   }
 
   .integrations-entries {
@@ -192,6 +199,10 @@
 
   .integrations-entry {
     border-bottom: 1px solid var(--color-grey-20);
+  }
+
+  .dark .integrations-entry {
+    border-bottom-color: #44475a;
   }
 
   .integrations-entry:last-child {
@@ -207,10 +218,25 @@
     color: var(--color-anthrazit) !important;
   }
 
+  .dark .integrations-entry-link {
+    color: #fff !important;
+  }
+
+  .integrations-entry-link:hover,
+  .integrations-entry-link:focus,
+  .integrations-entry-link:hover .integrations-entry-title,
+  .integrations-entry-link:focus .integrations-entry-title {
+    color: var(--color-blue) !important;
+  }
+
   .integrations-entry-link:hover,
   .integrations-entry-link:focus {
     background: var(--color-grey-10);
-    color: var(--color-blue) !important;
+  }
+
+  .dark .integrations-entry-link:hover,
+  .dark .integrations-entry-link:focus {
+    background: #3c3e4a;
   }
 
   .integrations-entry-main {
