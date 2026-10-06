@@ -1,0 +1,18 @@
+{{/* Integration single: title row with consortium logo (theme page_header, no featured image). */}}
+{{ $page := . }}
+{{ $title := .Title }}
+
+<div class="article-container pt-3">
+  <div class="integrations-single-header">
+    <div class="integrations-single-header-text">
+      <h1>{{ $title }}</h1>
+      {{ with $page.Params.subtitle }}
+      <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
+      {{ end }}
+    </div>
+    {{ partial "integrations/consortium_logo.html" $page }}
+  </div>
+
+  {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+  {{ partial "page_links_div.html" $page }}
+</div>

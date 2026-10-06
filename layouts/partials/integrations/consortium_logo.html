@@ -1,0 +1,23 @@
+{{/*
+  Stable pseudo-random consortium logo for an integration page (matches list view).
+  Pass the integration page as context.
+*/}}
+{{ $page := . }}
+{{ $consortiaLogos := site.Data.consortia_logos }}
+{{ if $consortiaLogos }}
+  {{ $digits := replaceRE "[^0-9]" "" (md5 $page.RelPermalink) }}
+  {{ $idx := mod (int (substr $digits 0 6)) (len $consortiaLogos) }}
+  {{ $logo := index $consortiaLogos $idx }}
+  <figure class="integrations-single-logo">
+    <img
+      class="integrations-single-logo-img"
+      src="{{ $logo.file | relURL }}"
+      alt="{{ $logo.alt }}"
+      title="{{ $logo.alt }}"
+      width="88"
+      height="56"
+      loading="lazy"
+      decoding="async"
+    >
+  </figure>
+{{ end }}

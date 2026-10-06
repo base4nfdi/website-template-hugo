@@ -8,34 +8,7 @@
   {{ end }}
 
   {{ $pages := .Pages.ByTitle }}
-  {{/* Consortia logos (synced from Base4NFDI dashboard ref-directory / partner-logos). */}}
-  {{ $consortiaLogos := slice
-    (dict "file" "images/consortia/berdnfdi.png" "alt" "BERD@NFDI")
-    (dict "file" "images/consortia/daphne4nfdi.png" "alt" "DAPHNE4NFDI")
-    (dict "file" "images/consortia/dataplant.svg" "alt" "DataPLANT")
-    (dict "file" "images/consortia/fairagro.png" "alt" "FAIRagro")
-    (dict "file" "images/consortia/fairmat.png" "alt" "FAIRmat")
-    (dict "file" "images/consortia/ghga.png" "alt" "GHGA")
-    (dict "file" "images/consortia/mardi.png" "alt" "MaRDI")
-    (dict "file" "images/consortia/nfdimatwerk.png" "alt" "NFDI-MatWerk")
-    (dict "file" "images/consortia/nfdi4biodiversity.png" "alt" "NFDI4Biodiversity")
-    (dict "file" "images/consortia/nfdi4bioimage.png" "alt" "NFDI4BIOIMAGE")
-    (dict "file" "images/consortia/nfdi4cat.svg" "alt" "NFDI4Cat")
-    (dict "file" "images/consortia/nfdi4chem.png" "alt" "NFDI4Chem")
-    (dict "file" "images/consortia/nfdi4culture.png" "alt" "NFDI4Culture")
-    (dict "file" "images/consortia/nfdi4datascience.png" "alt" "NFDI4DataScience")
-    (dict "file" "images/consortia/nfdi4earth.png" "alt" "NFDI4Earth")
-    (dict "file" "images/consortia/nfdi4energy.png" "alt" "NFDI4Energy")
-    (dict "file" "images/consortia/nfdi4health.png" "alt" "NFDI4Health")
-    (dict "file" "images/consortia/nfdi4immuno.png" "alt" "NFDI4Immuno")
-    (dict "file" "images/consortia/nfdi4ing.svg" "alt" "NFDI4Ing")
-    (dict "file" "images/consortia/nfdi4memory.svg" "alt" "NFDI4Memory")
-    (dict "file" "images/consortia/nfdi4microbiota.png" "alt" "NFDI4Microbiota")
-    (dict "file" "images/consortia/nfdi4objects.png" "alt" "NFDI4Objects")
-    (dict "file" "images/consortia/nfdixcs.png" "alt" "NFDIxCS")
-    (dict "file" "images/consortia/punch4nfdi.jpg" "alt" "PUNCH4NFDI")
-    (dict "file" "images/consortia/textplus.png" "alt" "Text+")
-  }}
+  {{ $consortiaLogos := site.Data.consortia_logos }}
   {{ if $pages }}
   <div class="integrations-panel">
     <ul class="integrations-entries">
