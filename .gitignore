@@ -10,3 +10,15 @@ go.sum
 
 # Ignore .DS_Store files of macOS
 .DS_Store
+
+# Nix / direnv (local only; do not commit)
+.direnv/
+# .envrc
+result
+result-*
+# flake.nix
+# flake.lock
+# shell.nix
+# default.nix
+# *.nix
+# /nix/

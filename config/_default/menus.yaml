@@ -10,6 +10,9 @@ main:
   - name: News
     url: news
     weight: 20
+  - name: Integrations
+    url: integrations
+    weight: 25
   - name: Publications
     url: publication
     weight: 30

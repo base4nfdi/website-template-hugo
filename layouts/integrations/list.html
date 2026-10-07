@@ -1,0 +1,46 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+  {{ with .Content }}
+    <div class="article-style">{{ . }}</div>
+  {{ end }}
+
+  {{ $pages := .Pages.ByTitle }}
+  {{ $consortiaLogos := site.Data.consortia_logos }}
+  {{ if $pages }}
+  <div class="integrations-panel">
+    <ul class="integrations-entries">
+      {{ range $pages }}
+      {{/* Stable pseudo-random pick per page (md5 digits → index). */}}
+      {{ $digits := replaceRE "[^0-9]" "" (md5 .RelPermalink) }}
+      {{ $idx := mod (int (substr $digits 0 6)) (len $consortiaLogos) }}
+      {{ $logo := index $consortiaLogos $idx }}
+      <li class="integrations-entry">
+        <a class="integrations-entry-link" href="{{ .RelPermalink }}">
+          <span class="integrations-entry-main">
+            <img
+              class="integrations-entry-logo"
+              src="{{ $logo.file | relURL }}"
+              alt="{{ $logo.alt }}"
+              title="{{ $logo.alt }}"
+              width="46"
+              height="32"
+              loading="lazy"
+              decoding="async"
+            >
+            <span class="integrations-entry-title">{{ .Title }}</span>
+          </span>
+          {{ with .Params.status }}
+          <span class="status-badge status-{{ . | urlize }}">{{ . }}</span>
+          {{ end }}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+</div>
+
+{{- end -}}
